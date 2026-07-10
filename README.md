@@ -103,3 +103,41 @@ API keys are stored locally in a `.env` file and excluded from GitHub using `.gi
 
 B.Tech Computer Science and Engineering  
 PES University
+
+
+
+---
+
+## 📸 Application Screenshots
+
+### Test Case 1: Person Name Retrieval
+
+The user asks for the person's name, and the RAG system retrieves relevant document context to generate an accurate answer.
+
+![Person Name Retrieval](name_answer.png.jpeg)
+
+### Source Citation and Retrieved Chunks
+
+The application displays the source PDF and the top relevant chunks retrieved from ChromaDB.
+
+![Name Source Chunks](name_source_chunks.png.jpeg)
+
+---
+
+### Test Case 2: Educational Qualifications Retrieval
+
+The user asks about educational qualifications, and the system generates an answer using only the retrieved PDF context.
+
+![Educational Qualifications](education_answer.png.jpeg)
+
+### Source Citation and Retrieved Chunks
+
+The application displays the relevant source chunks used to generate the educational qualifications answer.
+
+![Education Source Chunks](education_source_chunks.png.jpeg)
+
+### Document Management and Conversation History
+
+The application provides basic document management and maintains the conversation history for questions asked during the current session.
+
+![Document Management and Conversation History](education_history.png.jpeg)
